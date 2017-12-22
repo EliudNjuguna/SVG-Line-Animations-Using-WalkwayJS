@@ -1,0 +1,29 @@
+body{
+    background-color: #FFC145;
+}
+.svg-heading h1{
+    text-align: center;
+    color: #fff;
+    margin: 30px;
+    font-family: 'Roboto Mono'
+}
+
+svg{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+  path, line, polyline,rect {
+    stroke: #fff;
+    stroke-width: 2px;
+  }
+rect{
+    fill:none;
+}
+
+  path {
+    fill: transparent;
+  }
